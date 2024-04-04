@@ -1,0 +1,420 @@
+"Adults age 18 and older with any mental illness who did not receive treatment
+",,,,
+Adults with any mental illness who did not receive treatment,,,,
+time_period,state,population,cohort,point_estimate
+2009-11,United States,all,All,59
+2012-14,United States,all,All,57
+2013-15,United States,all,All,56
+2014-16,United States,all,All,56
+2016-17,United States,all,All,57
+2017-18,United States,all,All,57
+2018-19,United States,all,All,56
+2019-20,United States,all,All,55
+2009-11,Alabama,all,All,59
+2012-14,Alabama,all,All,54
+2013-15,Alabama,all,All,54
+2014-16,Alabama,all,All,59
+2016-17,Alabama,all,All,64
+2017-18,Alabama,all,All,57
+2018-19,Alabama,all,All,57
+2019-20,Alabama,all,All,62
+2009-11,Alaska,all,All,67
+2012-14,Alaska,all,All,61
+2013-15,Alaska,all,All,64
+2014-16,Alaska,all,All,62
+2016-17,Alaska,all,All,62
+2017-18,Alaska,all,All,66
+2018-19,Alaska,all,All,59
+2019-20,Alaska,all,All,55
+2009-11,Arizona,all,All,59
+2012-14,Arizona,all,All,59
+2013-15,Arizona,all,All,59
+2014-16,Arizona,all,All,63
+2016-17,Arizona,all,All,61
+2017-18,Arizona,all,All,53
+2018-19,Arizona,all,All,57
+2019-20,Arizona,all,All,64
+2009-11,Arkansas,all,All,58
+2012-14,Arkansas,all,All,51
+2013-15,Arkansas,all,All,55
+2014-16,Arkansas,all,All,57
+2016-17,Arkansas,all,All,53
+2017-18,Arkansas,all,All,48
+2018-19,Arkansas,all,All,50
+2019-20,Arkansas,all,All,46
+2009-11,California,all,All,64
+2012-14,California,all,All,62
+2013-15,California,all,All,61
+2014-16,California,all,All,62
+2016-17,California,all,All,65
+2017-18,California,all,All,65
+2018-19,California,all,All,62
+2019-20,California,all,All,63
+2009-11,Colorado,all,All,55
+2012-14,Colorado,all,All,62
+2013-15,Colorado,all,All,57
+2014-16,Colorado,all,All,54
+2016-17,Colorado,all,All,49
+2017-18,Colorado,all,All,51
+2018-19,Colorado,all,All,54
+2019-20,Colorado,all,All,56
+2009-11,Connecticut,all,All,58
+2012-14,Connecticut,all,All,50
+2013-15,Connecticut,all,All,53
+2014-16,Connecticut,all,All,54
+2016-17,Connecticut,all,All,56
+2017-18,Connecticut,all,All,54
+2018-19,Connecticut,all,All,54
+2019-20,Connecticut,all,All,56
+2009-11,Delaware,all,All,58
+2012-14,Delaware,all,All,52
+2013-15,Delaware,all,All,51
+2014-16,Delaware,all,All,48
+2016-17,Delaware,all,All,48
+2017-18,Delaware,all,All,50
+2018-19,Delaware,all,All,54
+2019-20,Delaware,all,All,48
+2009-11,District of Columbia,all,All,65
+2012-14,District of Columbia,all,All,55
+2013-15,District of Columbia,all,All,59
+2014-16,District of Columbia,all,All,58
+2016-17,District of Columbia,all,All,55
+2017-18,District of Columbia,all,All,52
+2018-19,District of Columbia,all,All,55
+2019-20,District of Columbia,all,All,56
+2009-11,Florida,all,All,63
+2012-14,Florida,all,All,62
+2013-15,Florida,all,All,62
+2014-16,Florida,all,All,61
+2016-17,Florida,all,All,59
+2017-18,Florida,all,All,63
+2018-19,Florida,all,All,64
+2019-20,Florida,all,All,58
+2009-11,Georgia,all,All,59
+2012-14,Georgia,all,All,62
+2013-15,Georgia,all,All,57
+2014-16,Georgia,all,All,59
+2016-17,Georgia,all,All,61
+2017-18,Georgia,all,All,65
+2018-19,Georgia,all,All,64
+2019-20,Georgia,all,All,58
+2009-11,Hawaii,all,All,73
+2012-14,Hawaii,all,All,66
+2013-15,Hawaii,all,All,64
+2014-16,Hawaii,all,All,68
+2016-17,Hawaii,all,All,65
+2017-18,Hawaii,all,All,66
+2018-19,Hawaii,all,All,67
+2019-20,Hawaii,all,All,69
+2009-11,Idaho,all,All,54
+2012-14,Idaho,all,All,53
+2013-15,Idaho,all,All,52
+2014-16,Idaho,all,All,56
+2016-17,Idaho,all,All,57
+2017-18,Idaho,all,All,54
+2018-19,Idaho,all,All,53
+2019-20,Idaho,all,All,52
+2009-11,Illinois,all,All,58
+2012-14,Illinois,all,All,55
+2013-15,Illinois,all,All,53
+2014-16,Illinois,all,All,54
+2016-17,Illinois,all,All,56
+2017-18,Illinois,all,All,56
+2018-19,Illinois,all,All,53
+2019-20,Illinois,all,All,51
+2009-11,Indiana,all,All,57
+2012-14,Indiana,all,All,57
+2013-15,Indiana,all,All,55
+2014-16,Indiana,all,All,55
+2016-17,Indiana,all,All,54
+2017-18,Indiana,all,All,56
+2018-19,Indiana,all,All,57
+2019-20,Indiana,all,All,51
+2009-11,Iowa,all,All,55
+2012-14,Iowa,all,All,45
+2013-15,Iowa,all,All,46
+2014-16,Iowa,all,All,46
+2016-17,Iowa,all,All,47
+2017-18,Iowa,all,All,50
+2018-19,Iowa,all,All,44
+2019-20,Iowa,all,All,47
+2009-11,Kansas,all,All,49
+2012-14,Kansas,all,All,53
+2013-15,Kansas,all,All,54
+2014-16,Kansas,all,All,56
+2016-17,Kansas,all,All,57
+2017-18,Kansas,all,All,51
+2018-19,Kansas,all,All,51
+2019-20,Kansas,all,All,52
+2009-11,Kentucky,all,All,55
+2012-14,Kentucky,all,All,52
+2013-15,Kentucky,all,All,51
+2014-16,Kentucky,all,All,51
+2016-17,Kentucky,all,All,55
+2017-18,Kentucky,all,All,51
+2018-19,Kentucky,all,All,54
+2019-20,Kentucky,all,All,52
+2009-11,Louisiana,all,All,65
+2012-14,Louisiana,all,All,59
+2013-15,Louisiana,all,All,58
+2014-16,Louisiana,all,All,61
+2016-17,Louisiana,all,All,62
+2017-18,Louisiana,all,All,62
+2018-19,Louisiana,all,All,60
+2019-20,Louisiana,all,All,53
+2009-11,Maine,all,All,47
+2012-14,Maine,all,All,45
+2013-15,Maine,all,All,41
+2014-16,Maine,all,All,42
+2016-17,Maine,all,All,50
+2017-18,Maine,all,All,50
+2018-19,Maine,all,All,48
+2019-20,Maine,all,All,54
+2009-11,Maryland,all,All,57
+2012-14,Maryland,all,All,57
+2013-15,Maryland,all,All,60
+2014-16,Maryland,all,All,56
+2016-17,Maryland,all,All,56
+2017-18,Maryland,all,All,59
+2018-19,Maryland,all,All,58
+2019-20,Maryland,all,All,55
+2009-11,Massachusetts,all,All,49
+2012-14,Massachusetts,all,All,46
+2013-15,Massachusetts,all,All,46
+2014-16,Massachusetts,all,All,49
+2016-17,Massachusetts,all,All,52
+2017-18,Massachusetts,all,All,50
+2018-19,Massachusetts,all,All,45
+2019-20,Massachusetts,all,All,43
+2009-11,Michigan,all,All,60
+2012-14,Michigan,all,All,53
+2013-15,Michigan,all,All,54
+2014-16,Michigan,all,All,53
+2016-17,Michigan,all,All,51
+2017-18,Michigan,all,All,54
+2018-19,Michigan,all,All,55
+2019-20,Michigan,all,All,49
+2009-11,Minnesota,all,All,57
+2012-14,Minnesota,all,All,46
+2013-15,Minnesota,all,All,44
+2014-16,Minnesota,all,All,43
+2016-17,Minnesota,all,All,50
+2017-18,Minnesota,all,All,53
+2018-19,Minnesota,all,All,46
+2019-20,Minnesota,all,All,50
+2009-11,Mississippi,all,All,67
+2012-14,Mississippi,all,All,61
+2013-15,Mississippi,all,All,58
+2014-16,Mississippi,all,All,57
+2016-17,Mississippi,all,All,55
+2017-18,Mississippi,all,All,58
+2018-19,Mississippi,all,All,59
+2019-20,Mississippi,all,All,56
+2009-11,Missouri,all,All,56
+2012-14,Missouri,all,All,51
+2013-15,Missouri,all,All,52
+2014-16,Missouri,all,All,52
+2016-17,Missouri,all,All,51
+2017-18,Missouri,all,All,55
+2018-19,Missouri,all,All,53
+2019-20,Missouri,all,All,50
+2009-11,Montana,all,All,51
+2012-14,Montana,all,All,54
+2013-15,Montana,all,All,48
+2014-16,Montana,all,All,54
+2016-17,Montana,all,All,58
+2017-18,Montana,all,All,54
+2018-19,Montana,all,All,51
+2019-20,Montana,all,All,41
+2009-11,Nebraska,all,All,53
+2012-14,Nebraska,all,All,56
+2013-15,Nebraska,all,All,58
+2014-16,Nebraska,all,All,56
+2016-17,Nebraska,all,All,53
+2017-18,Nebraska,all,All,53
+2018-19,Nebraska,all,All,49
+2019-20,Nebraska,all,All,42
+2009-11,Nevada,all,All,68
+2012-14,Nevada,all,All,68
+2013-15,Nevada,all,All,66
+2014-16,Nevada,all,All,63
+2016-17,Nevada,all,All,64
+2017-18,Nevada,all,All,60
+2018-19,Nevada,all,All,58
+2019-20,Nevada,all,All,61
+2009-11,New Hampshire,all,All,57
+2012-14,New Hampshire,all,All,49
+2013-15,New Hampshire,all,All,49
+2014-16,New Hampshire,all,All,46
+2016-17,New Hampshire,all,All,45
+2017-18,New Hampshire,all,All,52
+2018-19,New Hampshire,all,All,52
+2019-20,New Hampshire,all,All,49
+2009-11,New Jersey,all,All,68
+2012-14,New Jersey,all,All,56
+2013-15,New Jersey,all,All,58
+2014-16,New Jersey,all,All,57
+2016-17,New Jersey,all,All,60
+2017-18,New Jersey,all,All,60
+2018-19,New Jersey,all,All,57
+2019-20,New Jersey,all,All,56
+2009-11,New Mexico,all,All,55
+2012-14,New Mexico,all,All,57
+2013-15,New Mexico,all,All,57
+2014-16,New Mexico,all,All,56
+2016-17,New Mexico,all,All,54
+2017-18,New Mexico,all,All,57
+2018-19,New Mexico,all,All,54
+2019-20,New Mexico,all,All,46
+2009-11,New York,all,All,61
+2012-14,New York,all,All,60
+2013-15,New York,all,All,56
+2014-16,New York,all,All,57
+2016-17,New York,all,All,60
+2017-18,New York,all,All,60
+2018-19,New York,all,All,58
+2019-20,New York,all,All,58
+2009-11,North Carolina,all,All,59
+2012-14,North Carolina,all,All,49
+2013-15,North Carolina,all,All,50
+2014-16,North Carolina,all,All,51
+2016-17,North Carolina,all,All,55
+2017-18,North Carolina,all,All,57
+2018-19,North Carolina,all,All,52
+2019-20,North Carolina,all,All,51
+2009-11,North Dakota,all,All,55
+2012-14,North Dakota,all,All,58
+2013-15,North Dakota,all,All,56
+2014-16,North Dakota,all,All,58
+2016-17,North Dakota,all,All,56
+2017-18,North Dakota,all,All,55
+2018-19,North Dakota,all,All,50
+2019-20,North Dakota,all,All,48
+2009-11,Ohio,all,All,54
+2012-14,Ohio,all,All,54
+2013-15,Ohio,all,All,53
+2014-16,Ohio,all,All,53
+2016-17,Ohio,all,All,54
+2017-18,Ohio,all,All,51
+2018-19,Ohio,all,All,50
+2019-20,Ohio,all,All,56
+2009-11,Oklahoma,all,All,60
+2012-14,Oklahoma,all,All,58
+2013-15,Oklahoma,all,All,56
+2014-16,Oklahoma,all,All,55
+2016-17,Oklahoma,all,All,60
+2017-18,Oklahoma,all,All,59
+2018-19,Oklahoma,all,All,57
+2019-20,Oklahoma,all,All,54
+2009-11,Oregon,all,All,56
+2012-14,Oregon,all,All,53
+2013-15,Oregon,all,All,51
+2014-16,Oregon,all,All,55
+2016-17,Oregon,all,All,60
+2017-18,Oregon,all,All,59
+2018-19,Oregon,all,All,55
+2019-20,Oregon,all,All,54
+2009-11,Pennsylvania,all,All,54
+2012-14,Pennsylvania,all,All,52
+2013-15,Pennsylvania,all,All,53
+2014-16,Pennsylvania,all,All,54
+2016-17,Pennsylvania,all,All,54
+2017-18,Pennsylvania,all,All,53
+2018-19,Pennsylvania,all,All,52
+2019-20,Pennsylvania,all,All,52
+2009-11,Rhode Island,all,All,47
+2012-14,Rhode Island,all,All,55
+2013-15,Rhode Island,all,All,49
+2014-16,Rhode Island,all,All,48
+2016-17,Rhode Island,all,All,46
+2017-18,Rhode Island,all,All,49
+2018-19,Rhode Island,all,All,51
+2019-20,Rhode Island,all,All,50
+2009-11,South Carolina,all,All,54
+2012-14,South Carolina,all,All,55
+2013-15,South Carolina,all,All,58
+2014-16,South Carolina,all,All,60
+2016-17,South Carolina,all,All,57
+2017-18,South Carolina,all,All,51
+2018-19,South Carolina,all,All,56
+2019-20,South Carolina,all,All,51
+2009-11,South Dakota,all,All,53
+2012-14,South Dakota,all,All,53
+2013-15,South Dakota,all,All,54
+2014-16,South Dakota,all,All,53
+2016-17,South Dakota,all,All,56
+2017-18,South Dakota,all,All,55
+2018-19,South Dakota,all,All,52
+2019-20,South Dakota,all,All,46
+2009-11,Tennessee,all,All,57
+2012-14,Tennessee,all,All,57
+2013-15,Tennessee,all,All,58
+2014-16,Tennessee,all,All,57
+2016-17,Tennessee,all,All,51
+2017-18,Tennessee,all,All,52
+2018-19,Tennessee,all,All,54
+2019-20,Tennessee,all,All,46
+2009-11,Texas,all,All,65
+2012-14,Texas,all,All,60
+2013-15,Texas,all,All,60
+2014-16,Texas,all,All,62
+2016-17,Texas,all,All,62
+2017-18,Texas,all,All,60
+2018-19,Texas,all,All,61
+2019-20,Texas,all,All,62
+2009-11,Utah,all,All,57
+2012-14,Utah,all,All,56
+2013-15,Utah,all,All,56
+2014-16,Utah,all,All,57
+2016-17,Utah,all,All,51
+2017-18,Utah,all,All,51
+2018-19,Utah,all,All,50
+2019-20,Utah,all,All,50
+2009-11,Vermont,all,All,45
+2012-14,Vermont,all,All,43
+2013-15,Vermont,all,All,44
+2014-16,Vermont,all,All,46
+2016-17,Vermont,all,All,41
+2017-18,Vermont,all,All,43
+2018-19,Vermont,all,All,43
+2019-20,Vermont,all,All,43
+2009-11,Virginia,all,All,53
+2012-14,Virginia,all,All,51
+2013-15,Virginia,all,All,53
+2014-16,Virginia,all,All,54
+2016-17,Virginia,all,All,55
+2017-18,Virginia,all,All,55
+2018-19,Virginia,all,All,55
+2019-20,Virginia,all,All,47
+2009-11,Washington,all,All,53
+2012-14,Washington,all,All,59
+2013-15,Washington,all,All,56
+2014-16,Washington,all,All,54
+2016-17,Washington,all,All,53
+2017-18,Washington,all,All,54
+2018-19,Washington,all,All,54
+2019-20,Washington,all,All,50
+2009-11,West Virginia,all,All,48
+2012-14,West Virginia,all,All,54
+2013-15,West Virginia,all,All,54
+2014-16,West Virginia,all,All,52
+2016-17,West Virginia,all,All,51
+2017-18,West Virginia,all,All,52
+2018-19,West Virginia,all,All,52
+2019-20,West Virginia,all,All,51
+2009-11,Wisconsin,all,All,60
+2012-14,Wisconsin,all,All,53
+2013-15,Wisconsin,all,All,52
+2014-16,Wisconsin,all,All,53
+2016-17,Wisconsin,all,All,53
+2017-18,Wisconsin,all,All,49
+2018-19,Wisconsin,all,All,45
+2019-20,Wisconsin,all,All,47
+2009-11,Wyoming,all,All,61
+2012-14,Wyoming,all,All,53
+2013-15,Wyoming,all,All,52
+2014-16,Wyoming,all,All,56
+2016-17,Wyoming,all,All,64
+2017-18,Wyoming,all,All,65
+2018-19,Wyoming,all,All,62
+2019-20,Wyoming,all,All,54
