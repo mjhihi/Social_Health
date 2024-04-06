@@ -24,10 +24,14 @@ Placeholder --> Our team retrieved data from multiple sources to observe social 
 ## Project Instructions
 - **Objective**: Tell a compelling story through data visualization, allowing users to interactively explore the data.
 - **Requirements**: 
-  - Utilize a Python Flask-powered RESTful API, HTML/CSS, JavaScript, and at least one database.
+  - Data must be stored in and extracted from at least one database (PostgreSQL, MongoDB, SQLite, etc).
   - Include a unique JS library not covered in our course.
   - Ensure your data set comprises at least 100 records.
   - Implement user-driven interaction for a dynamic experience.
+     ● HTML menus, dropdowns, and/or textboxes to display JavaScript-powered visualizations
+     ● Flask backend with interactive API routes that serve back Python or JavaScript plots
+     ● Visualizations created from user-selected filtered data, which could be powered by JavaScript libraries,
+       Python in Jupyter Notebook, or Command-line Python scripts that save visualizations locally
   - Aim for at least three distinct views in your final visualization.
 
 ## Topic Description
