@@ -1,12 +1,9 @@
-"Children ages 3–17 who received treatment or counseling from a mental health professional when needed during the past 12 months
-"
-"Children who received needed mental health care"
 time_period,state,population,cohort,point_estimate
-2016-17,"United States",all,All,80
-2017-18,"United States",all,All,79.7
-2018-19,"United States",all,All,82.2
-2019-20,"United States",all,All,81.3
-2020-21,"United States",all,All,80.1
+2016-17,United States,all,All,80
+2017-18,United States,all,All,79.7
+2018-19,United States,all,All,82.2
+2019-20,United States,all,All,81.3
+2020-21,United States,all,All,80.1
 2016-17,Alabama,all,All,85.2
 2017-18,Alabama,all,All,87.6
 2018-19,Alabama,all,All,90.2
@@ -47,11 +44,11 @@ time_period,state,population,cohort,point_estimate
 2018-19,Delaware,all,All,85.1
 2019-20,Delaware,all,All,82.9
 2020-21,Delaware,all,All,79.2
-2016-17,"District of Columbia",all,All,87
-2017-18,"District of Columbia",all,All,83.6
-2018-19,"District of Columbia",all,All,71.3
-2019-20,"District of Columbia",all,All,74.8
-2020-21,"District of Columbia",all,All,75.4
+2016-17,District of Columbia,all,All,87
+2017-18,District of Columbia,all,All,83.6
+2018-19,District of Columbia,all,All,71.3
+2019-20,District of Columbia,all,All,74.8
+2020-21,District of Columbia,all,All,75.4
 2016-17,Florida,all,All,75
 2017-18,Florida,all,All,77.9
 2018-19,Florida,all,All,79.8
@@ -152,36 +149,36 @@ time_period,state,population,cohort,point_estimate
 2018-19,Nevada,all,All,72.9
 2019-20,Nevada,all,All,67.6
 2020-21,Nevada,all,All,67
-2016-17,"New Hampshire",all,All,90.6
-2017-18,"New Hampshire",all,All,84.1
-2018-19,"New Hampshire",all,All,80.1
-2019-20,"New Hampshire",all,All,79.9
-2020-21,"New Hampshire",all,All,81.6
-2016-17,"New Jersey",all,All,68.2
-2017-18,"New Jersey",all,All,74
-2018-19,"New Jersey",all,All,89.1
-2019-20,"New Jersey",all,All,83.3
-2020-21,"New Jersey",all,All,83.3
-2016-17,"New Mexico",all,All,87.2
-2017-18,"New Mexico",all,All,84.2
-2018-19,"New Mexico",all,All,83.7
-2019-20,"New Mexico",all,All,83.7
-2020-21,"New Mexico",all,All,80.9
-2016-17,"New York",all,All,80.4
-2017-18,"New York",all,All,79.2
-2018-19,"New York",all,All,85.8
-2019-20,"New York",all,All,83.1
-2020-21,"New York",all,All,79.5
-2016-17,"North Carolina",all,All,78.4
-2017-18,"North Carolina",all,All,82.9
-2018-19,"North Carolina",all,All,81
-2019-20,"North Carolina",all,All,79.4
-2020-21,"North Carolina",all,All,78.4
-2016-17,"North Dakota",all,All,91.3
-2017-18,"North Dakota",all,All,93.8
-2018-19,"North Dakota",all,All,91.1
-2019-20,"North Dakota",all,All,81.8
-2020-21,"North Dakota",all,All,78.5
+2016-17,New Hampshire,all,All,90.6
+2017-18,New Hampshire,all,All,84.1
+2018-19,New Hampshire,all,All,80.1
+2019-20,New Hampshire,all,All,79.9
+2020-21,New Hampshire,all,All,81.6
+2016-17,New Jersey,all,All,68.2
+2017-18,New Jersey,all,All,74
+2018-19,New Jersey,all,All,89.1
+2019-20,New Jersey,all,All,83.3
+2020-21,New Jersey,all,All,83.3
+2016-17,New Mexico,all,All,87.2
+2017-18,New Mexico,all,All,84.2
+2018-19,New Mexico,all,All,83.7
+2019-20,New Mexico,all,All,83.7
+2020-21,New Mexico,all,All,80.9
+2016-17,New York,all,All,80.4
+2017-18,New York,all,All,79.2
+2018-19,New York,all,All,85.8
+2019-20,New York,all,All,83.1
+2020-21,New York,all,All,79.5
+2016-17,North Carolina,all,All,78.4
+2017-18,North Carolina,all,All,82.9
+2018-19,North Carolina,all,All,81
+2019-20,North Carolina,all,All,79.4
+2020-21,North Carolina,all,All,78.4
+2016-17,North Dakota,all,All,91.3
+2017-18,North Dakota,all,All,93.8
+2018-19,North Dakota,all,All,91.1
+2019-20,North Dakota,all,All,81.8
+2020-21,North Dakota,all,All,78.5
 2016-17,Ohio,all,All,80.8
 2017-18,Ohio,all,All,82.3
 2018-19,Ohio,all,All,82.7
@@ -202,21 +199,21 @@ time_period,state,population,cohort,point_estimate
 2018-19,Pennsylvania,all,All,85.1
 2019-20,Pennsylvania,all,All,87.6
 2020-21,Pennsylvania,all,All,85.5
-2016-17,"Rhode Island",all,All,89.7
-2017-18,"Rhode Island",all,All,90.7
-2018-19,"Rhode Island",all,All,81.6
-2019-20,"Rhode Island",all,All,78.9
-2020-21,"Rhode Island",all,All,81.4
-2016-17,"South Carolina",all,All,68.3
-2017-18,"South Carolina",all,All,61.2
-2018-19,"South Carolina",all,All,76.3
-2019-20,"South Carolina",all,All,86.7
-2020-21,"South Carolina",all,All,87.3
-2016-17,"South Dakota",all,All,87.6
-2017-18,"South Dakota",all,All,92
-2018-19,"South Dakota",all,All,89.6
-2019-20,"South Dakota",all,All,87.5
-2020-21,"South Dakota",all,All,81.3
+2016-17,Rhode Island,all,All,89.7
+2017-18,Rhode Island,all,All,90.7
+2018-19,Rhode Island,all,All,81.6
+2019-20,Rhode Island,all,All,78.9
+2020-21,Rhode Island,all,All,81.4
+2016-17,South Carolina,all,All,68.3
+2017-18,South Carolina,all,All,61.2
+2018-19,South Carolina,all,All,76.3
+2019-20,South Carolina,all,All,86.7
+2020-21,South Carolina,all,All,87.3
+2016-17,South Dakota,all,All,87.6
+2017-18,South Dakota,all,All,92
+2018-19,South Dakota,all,All,89.6
+2019-20,South Dakota,all,All,87.5
+2020-21,South Dakota,all,All,81.3
 2016-17,Tennessee,all,All,77.4
 2017-18,Tennessee,all,All,75
 2018-19,Tennessee,all,All,79.6
@@ -247,11 +244,11 @@ time_period,state,population,cohort,point_estimate
 2018-19,Washington,all,All,83.6
 2019-20,Washington,all,All,86.6
 2020-21,Washington,all,All,86.8
-2016-17,"West Virginia",all,All,82.8
-2017-18,"West Virginia",all,All,83.4
-2018-19,"West Virginia",all,All,82.8
-2019-20,"West Virginia",all,All,86.1
-2020-21,"West Virginia",all,All,81.7
+2016-17,West Virginia,all,All,82.8
+2017-18,West Virginia,all,All,83.4
+2018-19,West Virginia,all,All,82.8
+2019-20,West Virginia,all,All,86.1
+2020-21,West Virginia,all,All,81.7
 2016-17,Wisconsin,all,All,82.7
 2017-18,Wisconsin,all,All,76.8
 2018-19,Wisconsin,all,All,85.3
