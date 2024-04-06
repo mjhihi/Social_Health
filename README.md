@@ -29,11 +29,11 @@ Placeholder --> Our team retrieved data from multiple sources to observe social 
   - Ensure your data set comprises at least 100 records.
   - Implement user-driven interaction for a dynamic experience.
   
-     ● HTML menus, dropdowns, and/or textboxes to display JavaScript-powered visualizations
+     -HTML menus, dropdowns, and/or textboxes to display JavaScript-powered visualizations
     
-     ● Flask backend with interactive API routes that serve back Python or JavaScript plots
+     -Flask backend with interactive API routes that serve back Python or JavaScript plots
     
-     ● Visualizations created from user-selected filtered data, which could be powered by JavaScript libraries,
+     -Visualizations created from user-selected filtered data, which could be powered by JavaScript libraries,
        Python in Jupyter Notebook, or Command-line Python scripts that save visualizations locally
   - Aim for at least three distinct views in your final visualization.
 
