@@ -52,7 +52,7 @@ We examine the transformative effect of social media on our daily lives and its 
 - [CDC - Emotional Well-being and Social Connectedness](https://www.cdc.gov/emotional-wellbeing/social-connectedness/loneliness.htm)
 - [The Jed Foundation](https://jedfoundation.org/) 
 
-## Background-add to ppt,removed next week.
+## Background-add to ppt,remove next week.
 Social media usage has significantly evolved, becoming an integral part of daily life globally and bringing about substantial changes in social health dynamics. On the positive side, social media provides a space for connecting with distant friends and relatives, finding like-minded communities, and maintaining relationships across physical distances. Conversely, excessive social media use has been linked to anxiety, depression, and decreased self-esteem.
 
 The introduction of affordable smartphones and new data plans has surged the popularity of social networking sites in the last few years. According to Pew Research Center, in the U.S., 72.5% of the population is actively using social networks.  The shift toward digital platforms became more pronounced during the COVID-19 pandemic, aiding in maintaining personal connections, supporting remote work and education, providing access to health information and services, and fostering community support and solidarity. However, this reliance on digital tools has also highlighted the digital divide and raised concerns about the long-term impacts on mental health. Strategies such as tailoring your social media experience to be more uplifting and finding healthy activities outside of social media are crucial for maintaining balance​ (The Jed Foundation)​.
