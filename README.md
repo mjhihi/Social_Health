@@ -16,7 +16,7 @@ This repository explores the relationship between social media usage and mental 
 5. [Dependencies](#dependencies)
 6. [Sources](#sources)
  
-## About The Project-In progress
+## About The Project -In progress
 Our team leveraged data from multiple sources ... We transformed datasets into GeoJSON and JSON files for dynamic data visualization, employing technologies such as Python, Flask, JavaScript, D3.js, Leaflet.js, and Chart.js to create an interactive dashboard.
 
 Placeholder --> Our team retrieved data from multiple sources to observe social media and mental health across the United States and worldwide social media engagement. Datasets were transformed to GeoJSON and JSON files using Pandas dataframes. JavaScript, D3.js, Geomapping with Leaflet.js, and Chart.js were utilized to generate an interactive United States map with a dashboard on mental health care. Flask and Beautiful Soup were used to web scrape a current social media news article from  .gov, send scraped information to MongoDB, and render it on our html page.
