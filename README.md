@@ -2,7 +2,7 @@
 # Social Health in the Digital Era
 ## Analyzing Social Media's Role in Mental Well-being
 
-This repository is dedicated to exploring the relationship between social media usage and mental health dynamics. Within, you will find an analysis using data from various sources to examine both the positive aspects of social media in fostering connections and its potential downsides, such as contributing to anxiety and depression.
+This repository explores the relationship between social media usage and mental health dynamics. Within, you will find an analysis using data from various sources to examine both the positive aspects of social media in fostering connections and its potential downsides, such as contributing to anxiety and depression.
 
 ### Final Product Overview
 - **Website Link**: [If applicable](#)
