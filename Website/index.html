@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Social Media and Mental Health</title>
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body>
@@ -12,27 +12,55 @@
     <h2>Real Time Insights From Social Media</h2>
     <h2>Social Media and Mental Health</h2>
         <img src="here,screenshot of dataset, 2-3rows with headers" alt="Dataset">
+
     
-<!-- Dropdown to select dataset -->
-    <div>
-        <h3>Select Data:</h3>
-        <select id="csvSelect">
-            <option value="adhd.csv">ADHD</option>
-            <option value="anxiety.csv">Anxiety 2</option>
-            <option value="self_esteem.csv">Self Esteem</option>
-            <option value="depression.csv">Depression</option>
-          </select>
-    </div>
-
-    <!-- Plotly Bar Graph Container -->
-    <div id="plotlyBarGraph"></div>
-
-    <script>
-  // Function to fetch CSV data and update the Plotly bar graph
-     
-
-    </script>
-
+     <!-- Dropdown to select dataset -->
+<div>
+    <h2>Select Dataset:</h2>
+    <select id="datasetSelect">
+      <option value="adhd">Table 1</option>
+      <option value="anxiety">Table 2</option>
+      <option value="self_esteem">Table 3</option>
+      <option value="depression">Table 4</option>
+    </select>
+  </div>
+  
+  <!-- Plotly Bar Graph Container -->
+  <div id="plotlyBarGraph"></div>
+  
+  <script>
+    // Function to fetch data from server and update the Plotly bar graph
+    async function updateGraph(tableName) {
+      try {
+        const response = await fetch(`/data/${tableName}`);
+        const data = await response.json();
+  
+        const xValues = data.map(row => row.x);
+        const yValues = data.map(row => parseFloat(row.y));
+  
+        const trace = {
+          x: xValues,
+          y: yValues,
+          type: 'bar',
+        };
+  
+        Plotly.newPlot('plotlyBarGraph', [trace], {barmode: 'group'});
+      } catch (err) {
+        console.error('Error fetching data from server', err);
+      }
+    }
+  
+    // Initial plot
+    updateGraph('table1');
+  
+    // Event listener for the dropdown menu
+    document.getElementById('datasetSelect').addEventListener('change', function() {
+      const selectedValue = this.value;
+  
+      // Update the Plotly bar graph based on the selected dataset
+      updateGraph(selectedValue);
+    });
+  </script>   
 
 </body>
 </html>
