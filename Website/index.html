@@ -24,43 +24,64 @@
       <option value="depression">Table 4</option>
     </select>
   </div>
-  
-  <!-- Plotly Bar Graph Container -->
-  <div id="plotlyBarGraph"></div>
-  
-  <script>
-    // Function to fetch data from server and update the Plotly bar graph
-    async function updateGraph(tableName) {
-      try {
-        const response = await fetch(`/data/${tableName}`);
-        const data = await response.json();
-  
-        const xValues = data.map(row => row.x);
-        const yValues = data.map(row => parseFloat(row.y));
-  
-        const trace = {
-          x: xValues,
-          y: yValues,
-          type: 'bar',
-        };
-  
-        Plotly.newPlot('plotlyBarGraph', [trace], {barmode: 'group'});
-      } catch (err) {
-        console.error('Error fetching data from server', err);
-      }
+    <!-- Plotly Bar Graph Container -->
+<div id="plotlyBarGraph"></div>
+
+<script>
+  // Function to fetch data from server and update the Plotly bar graph
+  async function updateGraph(tableName, xColumn, yColumn) {
+    try {
+      const response = await fetch(`/data/${tableName}`);
+      const data = await response.json();
+
+      const xValues = data.map(row => row[xColumn]);
+      const yValues = data.map(row => parseFloat(row[yColumn]));
+
+      const trace = {
+        x: xValues,
+        y: yValues,
+        type: 'bar',
+      };
+
+      Plotly.newPlot('plotlyBarGraph', [trace], {barmode: 'group'});
+    } catch (err) {
+      console.error('Error fetching data from server', err);
     }
+  }
+
+  // Initial plot
+  updateGraph('table1', 'xColumnName', 'yColumnName');
+
+  // Event listener for the dataset dropdown menu
+  document.getElementById('datasetSelect').addEventListener('change', function() {
+    const selectedValue = this.value;
+    let xColumn, yColumn;
+    // Set x and y column names based on the selected dataset
+    switch(selectedValue) {
+      case 'adhd':
+        xColumn = 'time_spent';
+        yColumn = 'ADHD_score';
+        break;
+      case 'anxiety':
+        xColumn = 'time_spent';
+        yColumn = 'Anxiety_score';
+        break;
+      case 'self_esteem':
+        xColumn = 'time_spent';
+        yColumn = 'SelfEsteem_score';
+        break;
+      case 'depression':
+        xColumn = 'time_spent';
+        yColumn = 'Depression_score';
+        break;
+      default:
+        break;
+    }
+    // Update the Plotly bar graph based on the selected dataset and columns
+    updateGraph(selectedValue, xColumn, yColumn);
+  });
+</script>
   
-    // Initial plot
-    updateGraph('table1');
-  
-    // Event listener for the dropdown menu
-    document.getElementById('datasetSelect').addEventListener('change', function() {
-      const selectedValue = this.value;
-  
-      // Update the Plotly bar graph based on the selected dataset
-      updateGraph(selectedValue);
-    });
-  </script>   
 
 </body>
 </html>
