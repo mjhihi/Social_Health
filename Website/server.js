@@ -59,7 +59,7 @@ app.get('/data/self_esteem', async (req, res) => {
 
 
 // Route to fetch data for Depression
-app.get('/data/self_esteem', async (req, res) => {
+app.get('/data/depression', async (req, res) => {
     try {
         const client = await pool.connect();
         const result = await client.query('SELECT * FROM depression');
