@@ -1,37 +1,49 @@
-// app.js-- app.js is responsible for fetching data from the server and creating the Plotly bar graph. 
+// app.js manages client-side data fetching and calls the Plotly graph creation function
 
 document.addEventListener('DOMContentLoaded', function () {
-    // Fetch data from server and create graph
-    fetch('http://localhost:3000/data')
+    // Fetch data from server for Table 1
+    fetch('http://localhost:3000/data/adhd')
         .then(response => response.json())
         .then(data => {
-
             // Log the received data for debugging
-            console.log('Data received from server:', data);
-            // Extract data for x and y axes
-            const ADHD1 = data.map(entry => entry.ADHD1);
-            const ADHD_score = data.map(entry => entry.ADHD_score);
-
-            // Log ADHD1 and ADHD_score to console for debugging
-            console.log('ADHD1:', ADHD1);
-            console.log('ADHD_score:', ADHD_score);
-
-            // Create bar trace
-            const trace = {
-                x: ADHD1,
-                y: ADHD_score,
-                type: 'bar'
-            };
-
-            // Layout for bar graph
-            const layout = {
-                title: 'Plotly Bar Graph',
-                xaxis: { title: 'ADHD1' },
-                yaxis: { title: 'ADHD Score' }
-            };
-
-            // Plot graph
-            Plotly.newPlot('graph', [trace], layout);
+            console.log('Data received for ADHD:', data);
+            // Call createPlotlyGraph function from plotlyGraph.js
+            createPlotlyGraph(data, 'ADHD1', 'ADHD_score');
         })
-        .catch(error => console.error('Error fetching data:', error));
+        .catch(error => console.error('Error fetching data for ADHD:', error));
+
+    // Fetch data from server for Anxiety
+    fetch('http://localhost:3000/data/anxiety')
+        .then(response => response.json())
+        .then(data => {
+            // Log the received data for debugging
+            console.log('Data received for Anxiety:', data);
+            // Call createPlotlyGraph function from plotlyGraph.js
+            createPlotlyGraph(data, 'anxiety1', 'Anxiety_score');
+        })
+        .catch(error => console.error('Error fetching data for Anxiety:', error));
+    
+    // Fetch data from server for Self-Esteem
+    fetch('http://localhost:3000/data/self_esteem')
+        .then(response => response.json())
+        .then(data => {
+            // Log the received data for debugging
+            console.log('Data received for Self-Esteem:', data);
+            // Call createPlotlyGraph function from plotlyGraph.js
+            createPlotlyGraph(data, 'Self_Esteem1', 'SelfEsteem_score');
+        })
+        .catch(error => console.error('Error fetching data for Self-Esteem:', error));
+
+    // Fetch data from server for Depression
+    fetch('http://localhost:3000/data/depression')
+        .then(response => response.json())
+        .then(data => {
+            // Log the received data for debugging
+            console.log('Data received for Depression:', data);
+            // Call createPlotlyGraph function from plotlyGraph.js
+            createPlotlyGraph(data, 'Depression1', 'Depression_score');
+        })
+        .catch(error => console.error('Error fetching data for Depression:', error));
+
+
 });

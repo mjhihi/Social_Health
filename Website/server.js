@@ -1,4 +1,4 @@
-// server.js -- server.js handles server setup and data retrieval from the database, 
+// server.js handles database interactions
 
 const express = require('express');
 const { Pool } = require('pg');
@@ -10,22 +10,13 @@ const port = 3000;
 const pool = new Pool({
     user: 'postgres',
     host: 'localhost',
-    database: 'social_health',
-    password: 'postgres',
+    database: 'your_database_name',
+    password: 'your_database_password',
     port: 5432,
 });
 
-// Test PostgreSQL connection
-pool.connect((err, client, release) => {
-    if (err) {
-        return console.error('Error acquiring client', err.stack);
-    }
-    console.log('Connected to PostgreSQL');
-    client.release();
-});
-
-// Route to fetch data
-app.get('/data', async (req, res) => {
+// Route to fetch data for ADHD
+app.get('/data/adhd', async (req, res) => {
     try {
         const client = await pool.connect();
         const result = await client.query('SELECT * FROM adhd');
@@ -33,8 +24,51 @@ app.get('/data', async (req, res) => {
         client.release();
         res.json(data);
     } catch (error) {
-        console.error('Error executing query', error);
-        res.status(500).send('Error fetching data from database');
+        console.error('Error executing query for ADHD:', error);
+        res.status(500).send('Error fetching data for ADHD from database');
+    }
+});
+
+// Route to fetch data for Anxiety
+app.get('/data/anxiety', async (req, res) => {
+    try {
+        const client = await pool.connect();
+        const result = await client.query('SELECT * FROM anxiety');
+        const data = result.rows;
+        client.release();
+        res.json(data);
+    } catch (error) {
+        console.error('Error executing query for Anxiety:', error);
+        res.status(500).send('Error fetching data for Anxiety from database');
+    }
+});
+
+// Route to fetch data for Self-Esteem
+app.get('/data/self_esteem', async (req, res) => {
+    try {
+        const client = await pool.connect();
+        const result = await client.query('SELECT * FROM self_esteem');
+        const data = result.rows;
+        client.release();
+        res.json(data);
+    } catch (error) {
+        console.error('Error executing query for Self-Esteem:', error);
+        res.status(500).send('Error fetching data for Self-Esteem from database');
+    }
+});
+
+
+// Route to fetch data for Depression
+app.get('/data/self_esteem', async (req, res) => {
+    try {
+        const client = await pool.connect();
+        const result = await client.query('SELECT * FROM depression');
+        const data = result.rows;
+        client.release();
+        res.json(data);
+    } catch (error) {
+        console.error('Error executing query for Depression:', error);
+        res.status(500).send('Error fetching data for Depression from database');
     }
 });
 
