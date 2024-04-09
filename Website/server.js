@@ -1,3 +1,5 @@
+// server.js -- server.js handles server setup and data retrieval from the database, 
+
 const express = require('express');
 const { Pool } = require('pg');
 

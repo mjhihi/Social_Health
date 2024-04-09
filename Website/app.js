@@ -1,19 +1,20 @@
+// app.js-- app.js is responsible for fetching data from the server and creating the Plotly bar graph. 
+
 document.addEventListener('DOMContentLoaded', function () {
-    // Fetch data from server
+    // Fetch data from server and create graph
     fetch('http://localhost:3000/data')
         .then(response => response.json())
         .then(data => {
-            // Populate data table
-            const tableBody = document.getElementById('tableBody');
-            data.forEach(row => {
-                const tr = document.createElement('tr');
-                tr.innerHTML = `<td>${row.ID}</td><td>${row.timestamp}</td><td>${row.ADHD1}</td><td>${row.ADHD2}</td><td>${row.ADHD3}</td><td>${row.ADHD4}</td><td>${row.ADHD_score}</td>`;
-                tableBody.appendChild(tr);
-            });
 
-            // Create data for bar graph
-            const ADHD1 = data.map(row => row.ADHD1);
-            const ADHD_score = data.map(row => row.ADHD_score);
+            // Log the received data for debugging
+            console.log('Data received from server:', data);
+            // Extract data for x and y axes
+            const ADHD1 = data.map(entry => entry.ADHD1);
+            const ADHD_score = data.map(entry => entry.ADHD_score);
+
+            // Log ADHD1 and ADHD_score to console for debugging
+            console.log('ADHD1:', ADHD1);
+            console.log('ADHD_score:', ADHD_score);
 
             // Create bar trace
             const trace = {
@@ -24,9 +25,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Layout for bar graph
             const layout = {
-                title: 'Data Visualization',
+                title: 'Plotly Bar Graph',
                 xaxis: { title: 'ADHD1' },
-                yaxis: { title: 'ADHD_SCORE' }
+                yaxis: { title: 'ADHD Score' }
             };
 
             // Plot graph
