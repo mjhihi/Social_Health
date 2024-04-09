@@ -13,7 +13,7 @@ const pool = new Pool({
   host: 'localhost',
   database: 'social_health',
   password: 'postgres',
-  port: 5432,
+  port: 5433,
 });
 
 // Serve static files
