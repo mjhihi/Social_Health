@@ -1,39 +1,42 @@
-// fetch data from four different tables in POstgresSQL
-
 const express = require('express');
 const { Pool } = require('pg');
-const path = require('path');
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = 3000;
 
-// PostgreSQL connection configuration
+// PostgreSQL configuration
 const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
-  database: 'social_health',
-  password: 'postgres',
-  port: 5433,
+    user: 'postgres',
+    host: 'localhost',
+    database: 'social_health',
+    password: 'postgres',
+    port: 5432,
 });
 
-// Serve static files
-app.use(express.static(path.join(__dirname, 'public')));
-
-// Route to fetch data from PostgreSQL based on table name
-app.get('/data/:tableName', async (req, res) => {
-  const tableName = req.params.tableName;
-  try {
-    const client = await pool.connect();
-    const result = await client.query(`SELECT * FROM ${tableName}`);
+// Test PostgreSQL connection
+pool.connect((err, client, release) => {
+    if (err) {
+        return console.error('Error acquiring client', err.stack);
+    }
+    console.log('Connected to PostgreSQL');
     client.release();
-
-    res.json(result.rows);
-  } catch (err) {
-    console.error('Error executing query', err);
-    res.status(500).send('Error fetching data from database');
-  }
 });
 
+// Route to fetch data
+app.get('/data', async (req, res) => {
+    try {
+        const client = await pool.connect();
+        const result = await client.query('SELECT * FROM adhd');
+        const data = result.rows;
+        client.release();
+        res.json(data);
+    } catch (error) {
+        console.error('Error executing query', error);
+        res.status(500).send('Error fetching data from database');
+    }
+});
+
+// Start the server
 app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+    console.log(`Server is listening at http://localhost:${port}`);
 });
