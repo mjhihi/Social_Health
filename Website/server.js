@@ -9,10 +9,10 @@ const port = process.env.PORT || 3000;
 
 // PostgreSQL connection configuration
 const pool = new Pool({
-  user: 'your_username',
-  host: 'your_host',
-  database: 'your_database',
-  password: 'your_password',
+  user: 'postgres',
+  host: 'localhost',
+  database: 'social_health',
+  password: 'postgres',
   port: 5432,
 });
 
