@@ -1,9 +1,11 @@
 // server.js handles database interactions
 
 const express = require('express');
+const cors = require('cors');
 const { Pool } = require('pg');
 
 const app = express();
+app.use(cors());
 const port = 3000;
 
 // PostgreSQL configuration
@@ -61,6 +63,7 @@ app.get('/data/self_esteem', async (req, res) => {
 // Route to fetch data for Depression
 app.get('/data/depression', async (req, res) => {
     try {
+        console.log("anything")
         const client = await pool.connect();
         const result = await client.query('SELECT * FROM depression');
         const data = result.rows;

@@ -5,10 +5,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Social Media and Mental Health</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
     
 </head>
 <body>
@@ -29,20 +29,24 @@
 
   <!-- Plotly Bar Graph Container -->
     <div id="graph"></div>
+      
+     <!-- Include your app.js script -->
+     <script src="plotlyGraph.js"></script>
+     <script src="app.js"></script>
 
-      <script>
+      <!-- <script>
+    
       // Initial plot
-        updatePlotlyGraph('adhd');
+      createPlotlyGraph('adhd','time_spent','ADHD_score');
 
       // Event listener for the dataset dropdown menu
         document.getElementById('datasetSelect').addEventListener('change', function() {
             const selectedValue = this.value;
             updatePlotlyGraph(selectedValue);
       });
-      </script>
-
+      </script> -->
 
 </body>
 
-   
+
 </html>
