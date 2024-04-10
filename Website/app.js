@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Log the received data for debugging
             console.log('Data received for ADHD:', data);
             // Call createPlotlyGraph function from plotlyGraph.js
-            createPlotlyGraph(data, 'time_spent', 'ADHD_score');
+            createPlotlyGraph(data, 'time_spent', 'ADHD_score','adhdGraph');
         })
         .catch(error => console.error('Error fetching data for ADHD:', error));
 
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Log the received data for debugging
             console.log('Data received for Anxiety:', data);
             // Call createPlotlyGraph function from plotlyGraph.js
-            createPlotlyGraph(data, 'time_spent', 'Anxiety_score');
+            createPlotlyGraph(data, 'time_spent', 'Anxiety_score','anxietyGraph');
         })
         .catch(error => console.error('Error fetching data for Anxiety:', error));
     
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Log the received data for debugging
             console.log('Data received for Self-Esteem:', data);
             // Call createPlotlyGraph function from plotlyGraph.js
-            createPlotlyGraph(data, 'time_spent', 'SelfEsteem_score');
+            createPlotlyGraph(data, 'time_spent', 'SelfEsteem_score','selfEsteemGraph');
         })
         .catch(error => console.error('Error fetching data for Self-Esteem:', error));
 
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Log the received data for debugging
             console.log('Data received for Depression:', data);
             // Call createPlotlyGraph function from plotlyGraph.js
-            createPlotlyGraph(data, 'time_spent', 'Depression_score');
+            createPlotlyGraph(data, 'time_spent', 'Depression_score', 'depressionGraph');
         })
         .catch(error => console.error('Error fetching data for Depression:', error));
 

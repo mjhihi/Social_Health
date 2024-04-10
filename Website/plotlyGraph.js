@@ -1,5 +1,5 @@
 // plotlyGraph.js
-function createPlotlyGraph(data, xColumnName, yColumnName, containerId) {
+function createPlotlyGraph(data, xColumnName, yColumnName, divID) {
     // Extract x and y values from data
     console.log("insideplotly",data)
     const xValues = data.map(row => row[xColumnName]);
@@ -12,7 +12,7 @@ function createPlotlyGraph(data, xColumnName, yColumnName, containerId) {
 
     };
 
-    Plotly.newPlot('graph', [trace], {barmode: 'group'});
+    Plotly.newPlot(divID, [trace], {barmode: 'group'});
 }
 
 d3.request("http://127.0.0.1:3000/data/depression").get(response => {
