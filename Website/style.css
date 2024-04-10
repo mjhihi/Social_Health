@@ -1,5 +1,5 @@
 body {
-    background-color: #F2EFE5;
+    background-color: #F8F6F4;
 }
 
 
@@ -15,13 +15,20 @@ h1 {
   text-align: center;
   margin-bottom: 60px;
   padding-top: 40px;
-  color: #5D0E41;
+  color: #144272;
 }
 
 h2 {
-  font-weight: 400; 
+  font-weight: 600; 
+  color: #2C74B3;
+  text-align: center;
+
 }
 
-h3 {
-  font-weight: 200; 
+.graphContainer {
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  flex-wrap: wrap; /* Allow content to wrap if necessary */
+  margin-top: 40px; /* Adjust top margin as needed */
 }

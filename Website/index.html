@@ -16,23 +16,15 @@
     <h2>Real Time Insights From Social Media</h2>
     <h2>Social Media and Mental Health</h2>
    
-    <!-- Dropdown to select dataset -->
-    <div>
-      <h3>Select Dataset:</h3>
-      <select id="datasetSelect">
-          <option value="adhd">ADHD</option>
-          <option value="anxiety">Anxiety</option>
-          <option value="depression">Depression</option>
-          <option value="self_esteem">Self Esteem</option>
-      </select>
-    </div>
+
 
   <!-- Plotly Bar Graph Container -->
-    <div id="depressionGraph"></div>
-    <div id="anxietyGraph"></div>
-    <div id="adhdGraph"></div>
-    <div id="selfEsteemGraph"></div>
-      
+  <div id="plotContainer" class="graphContainer">
+    <div class="plot-div" id="depressionGraph"></div>
+    <div class="plot-div" id="anxietyGraph"></div>
+    <div class="plot-div" id="adhdGraph"></div>
+    <div class="plot-div" id="selfEsteemGraph"></div>
+  </div>
      <!-- Include your app.js script -->
      <script src="plotlyGraph.js"></script>
      <script src="app.js"></script>
