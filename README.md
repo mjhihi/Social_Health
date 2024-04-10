@@ -1,8 +1,8 @@
 
-# Social Health in the Digital Era
+# Social Media Wellness
 ## Analyzing Social Media's Role in Mental Well-being
 
-This repository explores the relationship between social media usage and mental health dynamics. Within, you will find an analysis using data from various sources to examine both the positive aspects of social media in fostering connections and its potential downsides, such as contributing to anxiety and depression.
+This repository explores the relationship between social media usage and mental health concerns. Within, you will find an analysis using data from Kaggle and the Commonwealth Fund to examine social media correlation to its potential downsides, such as anxiety, ADHD, low self esteem and depression.
 
 ### Final Product Overview
 - **Website Link**: [If applicable](#)
@@ -17,9 +17,8 @@ This repository explores the relationship between social media usage and mental 
 6. [Sources](#sources)
  
 ## About The Project -In progress
-Our team leveraged data from multiple sources ... We transformed datasets into GeoJSON and JSON files for dynamic data visualization, employing technologies such as Python, Flask, JavaScript, D3.js, Leaflet.js, and Chart.js to create an interactive dashboard.
+Our team retrieved data from multiple sources (https://www.kaggle.com/code/souvikahmed071/correlation-between-sm-and-mental-health) and https://www.commonwealthfund.org/datacenter  to observe social media and mental health across the United States. Postgresql, JavaScript, and D3.js were used to generate interactive dashboards for correlation graphs, timeline and map on mental health relation to social media and states mental health care and integrated it on our html page.
 
-Placeholder --> Our team retrieved data from multiple sources to observe social media and mental health across the United States and worldwide social media engagement. Datasets were transformed to GeoJSON and JSON files using Pandas dataframes. JavaScript, D3.js, Geomapping with Leaflet.js, and Chart.js were utilized to generate an interactive United States map with a dashboard on mental health care. Flask and Beautiful Soup were used to web scrape a current social media news article from  .gov, send scraped information to MongoDB, and render it on our html page.
 
 ## Project Instructions
 - **Objective**: Tell a compelling story through data visualization, allowing users to interactively explore the data.
@@ -43,12 +42,14 @@ We examine the transformative effect of social media on our daily lives and its 
 ## Files Included
 - `corr_socialMedia_mentalHealth_NK.ipynb`: Jupyter Notebooks for data manipulation and analysis.
 - `ERD.Model.png`: ERD schema visualization.
-- `<filename>_db_schema.sql`: SQL schema for database creation and data management.
+- `social_health.sql`: SQL schema for database creation and data management.
 - `README.md`: Project guidelines and instructions.
-- `Resources/`: Directory containing data files for analysis.
+- `Resource/`: Directory containing data files for analysis.
+- `Website/`
+- `Images/`
 
 ## Dependencies
-- **Languages & Libraries**: Python, Pandas, Plotly, Radar API, Flask, Beautiful Soup, GeoJSON, JSON, Requests.
+- **Languages & Libraries**: Python, Pandas, Plotly, Flask, JSON, Requests.
 - **Databases**: Postgresql.
 - **Frontend**: JavaScript, Leaflet.js, Chart.js.
 
