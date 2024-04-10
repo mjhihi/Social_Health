@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Log the received data for debugging
             console.log('Data received for ADHD:', data);
             // Call createPlotlyGraph function from plotlyGraph.js
-            createPlotlyGraph(data, 'time_spent', 'ADHD_score','adhdGraph', 'Time Spent on Media vs. ADHD Scores', 'Time Spent on Media', 'ADHD Scores','4F709C',33.33, 30);
+            createPlotlyGraph(data, 'time_spent', 'ADHD_score','adhdGraph', 'Time Spent on Media vs. ADHD Scores', 'Time Spent on Media', 'ADHD Scores','4F709C');
         })
         .catch(error => console.error('Error fetching data for ADHD:', error));
 
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Log the received data for debugging
             console.log('Data received for Anxiety:', data);
             // Call createPlotlyGraph function from plotlyGraph.js
-            createPlotlyGraph(data, 'time_spent', 'Anxiety_score','anxietyGraph', 'Time Spent on Media vs. Anxiety Scores', 'Time Spent on Media', 'Anxiety Scores','F3B664',33.33, 30);
+            createPlotlyGraph(data, 'time_spent', 'Anxiety_score','anxietyGraph', 'Time Spent on Media vs. Anxiety Scores', 'Time Spent on Media', 'Anxiety Scores','F3B664');
         })
         .catch(error => console.error('Error fetching data for Anxiety:', error));
  
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Log the received data for debugging
             console.log('Data received for Self-Esteem:', data);
             // Call createPlotlyGraph function from plotlyGraph.js
-            createPlotlyGraph(data, 'time_spent', 'SelfEsteem_score','selfEsteemGraph','Time Spent on Media vs. Self-Esteem Scores', 'Time Spent on Media', 'Self-Esteem Scores','E5D283',33.33, 30);
+            createPlotlyGraph(data, 'time_spent', 'SelfEsteem_score','selfEsteemGraph','Time Spent on Media vs. Self-Esteem Scores', 'Time Spent on Media', 'Self-Esteem Scores','E5D283');
         })
         .catch(error => console.error('Error fetching data for Self-Esteem:', error));
 
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Log the received data for debugging
             console.log('Data received for Depression:', data);
             // Call createPlotlyGraph function from plotlyGraph.js
-            createPlotlyGraph(data, 'time_spent', 'Depression_score', 'depressionGraph', 'Time Spent on Media vs. Depression Scores', 'Time Spent on Media', 'Depression Scores', '#213555',33.33,30);
+            createPlotlyGraph(data, 'time_spent', 'Depression_score', 'depressionGraph', 'Time Spent on Media vs. Depression Scores', 'Time Spent on Media', 'Depression Scores', '#213555');
         })
         .catch(error => console.error('Error fetching data for Depression:', error));
 

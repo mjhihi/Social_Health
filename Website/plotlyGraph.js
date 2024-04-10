@@ -1,7 +1,6 @@
 // plotlyGraph.js
-function createPlotlyGraph(data, xColumnName, yColumnName, divID, title, xLabel, yLabel, barColor, plotWidthPercentage, plotHeightPercentage) {
+function createPlotlyGraph(data, xColumnName, yColumnName, divID, title, xLabel, yLabel, barColor) {
     // Extract x and y values from data
-    console.log("insideplotly",data)
     const xValues = data.map(row => row[xColumnName]);
     const yValues = data.map(row => parseFloat(row[yColumnName]));
 
@@ -19,9 +18,9 @@ function createPlotlyGraph(data, xColumnName, yColumnName, divID, title, xLabel,
     const trace = {
         x: xValues,
         y: yValues,
-        type: 'bar',
+        type: 'box',
         marker: {
-            color: barColor, // Custom bar color
+            color: barColor
         }
 
     };
@@ -30,20 +29,21 @@ function createPlotlyGraph(data, xColumnName, yColumnName, divID, title, xLabel,
         title: {
             text: title,
             font: {
-                size: 18, // Adjust the font size as needed
-                family: 'Arial, sans-serif', // Optional font family
-                color: '#000', // Optional font color
-                weight: 'bold' // Make the title text bold
+                size: 18, 
+                family: 'Arial, sans-serif', 
+                color: '#000', 
+                weight: 'bold' 
             }
         },
         xaxis: {
             title: xLabel
         },
         yaxis: {
-            title: yLabel
+            title: yLabel,
+            range: [0, 22]
         },
-        width: window.innerWidth * plotWidthPercentage / 100,
-        height: window.innerHeight * plotHeightPercentage / 100
+        width: '80%',
+        height: '80%'
     };
 
 
@@ -61,26 +61,26 @@ function reorderXValues(xValues) {
 //depression
 d3.request("http://127.0.0.1:3000/data/depression").get(response => {
     console.log(data);
-    createPlotlyGraph(data, 'time_spent','Depression_score','depressionGraph', 'Time Spent on Media vs. Depression Scores', 'Time Spent on Media', 'Depression Scores', '#213555',33.33, 30)
+    createPlotlyGraph(data, 'time_spent','Depression_score','depressionGraph', 'Time Spent on Media vs. Depression Scores', 'Time Spent on Media', 'Depression Scores', '#213555')
 })
 
 
 //anxiety
 d3.request("http://127.0.0.1:3000/data/anxiety").get(response => {
     console.log(data);
-    createPlotlyGraph(data, 'time_spent','Anxiety_score','anxietyGraph', 'Time Spent on Media vs. Anxiety Scores', 'Time Spent on Media', 'Anxiety Scores','F3B664',33.33, 30)
+    createPlotlyGraph(data, 'time_spent','Anxiety_score','anxietyGraph', 'Time Spent on Media vs. Anxiety Scores', 'Time Spent on Media', 'Anxiety Scores','F3B664')
 })
 
 
 //adhd
 d3.request("http://127.0.0.1:3000/data/adhd").get(response => {
     console.log(data);
-    createPlotlyGraph(data, 'time_spent','ADHD_score','adhdGraph', 'Time Spent on Media vs. ADHD Scores', 'Time Spent on Media', 'ADHD Scores','4F709C',33.33, 30)
+    createPlotlyGraph(data, 'time_spent','ADHD_score','adhdGraph', 'Time Spent on Media vs. ADHD Scores', 'Time Spent on Media', 'ADHD Scores','4F709C')
 })
 
 
 //self-esteem
 d3.request("http://127.0.0.1:3000/data/self_esteem").get(response => {
     console.log(data);
-    createPlotlyGraph(data, 'time_spent','SelfEsteem_score','selfEsteemGraph', 'Time Spent on Media vs. Self-Esteem Scores', 'Time Spent on Media', 'Self-Esteem Scores','E5D283', 33.33, 30)
+    createPlotlyGraph(data, 'time_spent','SelfEsteem_score','selfEsteemGraph', 'Time Spent on Media vs. Self-Esteem Scores', 'Time Spent on Media', 'Self-Esteem Scores','E5D283')
 })
