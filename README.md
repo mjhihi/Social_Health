@@ -44,9 +44,9 @@ We examine the transformative effect of social media on our daily lives and its 
 - `ERD.Model.png`: ERD schema visualization.
 - `social_health.sql`: SQL schema for database creation and data management.
 - `README.md`: Project guidelines and instructions.
-- `Resource/`: Directory containing data files for analysis.
-- `Website/`
-- `Images/`
+- `Resource`: Directory containing data files for analysis.
+- `Website`
+- `Images`
 
 ## Dependencies
 - **Languages & Libraries**: Python, Pandas, Plotly, Flask, JSON, Requests.
