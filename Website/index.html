@@ -1,39 +1,110 @@
-<!--index.html defines the webpage structure and includes the client-side script app.js-->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Social Media and Mental Health</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    
 </head>
 <body>
-    <h1>Connected or Disconnected: Analyzing Social Media's Role in Mental Well-being</h1>
-    <h2>Real Time Insights From Social Media</h2>
-    <h2>Social Media and Mental Health</h2>
-   
-
-
+  <header>
+    <img src="../Images/tiles.jpeg" alt="Header Image">
+  </header>
+  <h1>Connected or Disconnected: Analyzing Social Media's Role in Mental Well-being</h1>
+  <h2>Real Time Insights From Social Media</h2>
+  <h2>Social Media and Mental Health</h2>
   <!-- Plotly Bar Graph Container -->
   <div id="plotContainer" class="graphContainer">
     <div class="plot-div" id="depressionGraph"></div>
     <div class="plot-div" id="anxietyGraph"></div>
     <div class="plot-div" id="adhdGraph"></div>
     <div class="plot-div" id="selfEsteemGraph"></div>
-
   </div>
-     <!-- Include your app.js script -->
-     <script src="plotlyGraph.js"></script>
-     <script src="app.js"></script>
 
-  <div class="corrPlotContainer"><img src="../correlationPlot.png" alt="correlation p
-lots"></div>  
-
+<section id=timeline>
+      <h1>Social Media Timline</h1>
+      <p class="leader"></p>
+      <div class="demo-card-wrapper">
+        <div class="demo-card demo-card--step4">
+          <div class="head">
+            <div class="number-box">
+              <span>2003</span>
+            </div>
+            <h2><span class="small"></span> MySpace</h2>
+          </div>
+          <div class="body">
+            <p>Back in the day, MySpace reigned supreme as the go-to social networking platform! From 2005 to 2008, it held the title of the largest social networking site worldwide. MySpace offered users a highly customizable experience, where they could list their top friends, share photos, and even stream their favorite playlists. Ah, the nostalgia of those good ol' days!</p>
+            <img src="..\Images\myspace-logo.jpg" alt="MySpace Image" style="width: 418px; height: 148px;">
+          </div>
+        </div>
+    
+        <div class="demo-card demo-card--step2">
+          <div class="head">
+            <div class="number-box">
+              <span>2004</span>
+            </div>
+            <h2><span class="small"></span> Facebook</h2>
+          </div>
+          <div class="body">
+            <p>For over a century, Facebook has stood as a leader in the realm of social media. Emerging from a Harvard dorm room, its humble beginnings belied the profound social impact it would eventually wield. Who could have predicted its monumental influence?</p>
+            <img src="..\Images\facebook-logo.png" alt="Facebook Image" style="width: 418px; height: 185px;">
+          </div>
+        </div>
+    
+        <div class="demo-card demo-card--step1">
+          <div class="head">
+            <div class="number-box">
+              <span>2006</span>
+            </div>
+            <h2><span class="small"></span> Twitter/X</h2>
+          </div>
+          <div class="body">
+            <p>Twitter, now known as X, revolutionized social media with its concise format, consisting of short posts. Initially constrained to a 140-character limit, it later expanded to 280 characters. Keeping all your friends updated on your daily activities has never been more effortless!</p>
+            <img src="..\Images\twitter-logo.png" alt="Twitter Image" style="width: 418px; height: 165px;">
+          </div>
+        </div>
+    
+        <div class="demo-card demo-card--step3">
+          <div class="head">
+            <div class="number-box">
+              <span>2010</span>
+            </div>
+            <h2><span class="small"></span> Instagram</h2>
+          </div>
+          <div class="body">
+            <p>The phrase 'Hold on, I have to take a picture of the food!' has become emblematic of our dining experiences, often leaving hungry friends and partners 'hangry' as we indulge in capturing the perfect Instagram-worthy shot. Instagram pioneered the era of hashtags, providing a platform for businesses to amass followers with ease. #whowouldhaveknown</p>
+            <img src="..\Images\Instagram-logo.png" alt="Graphic" style="width: 418px; height: 150px;">
+          </div>
+        </div>
+    
+        <div class="demo-card demo-card--step7">
+          <div class="head">
+            <div class="number-box">
+              <span>2011</span>
+            </div>
+            <h2><span class="small"></span> SnapChat</h2>
+          </div>
+          <div class="body">
+            <p>Snapchat, characterized by its logo's disappearing ghost, is renowned for its ephemeral nature, where messages, images, and videos vanish after being viewed by the recipient. With approximately 150 million daily users, the platform sees a staggering consumption rate of around 800 hours of video per second. This unique feature sets Snapchat apart from other social media platforms, offering users a sense of immediacy and privacy in their interactions.</p>
+            <img src="..\Images\snapchat-logo.png" alt="Graphic" style="width: 418px; height: 115px;">
+          </div>
+        </div>
+        
+        <div class="demo-card demo-card--step6">
+          <div class="head">
+            <div class="number-box">
+              <span>2017</span>
+            </div>
+            <h2><span class="small"></span> TikTok</h2>
+          </div>
+          <div class="body">
+            <p>TikTok, often likened to its predecessor Vine (rest in peace), is an app renowned for hosting short videos crafted by users. Its robust editing features and plethora of effects have captivated content creators and influencers worldwide, making it a resounding hit in the realm of social media.</p>
+            <img src="..\Images\TikToc.png" alt="Graphic" style="width: 418px; height: 165px;">
+          </div>
+        </div>
+      </div>
+    </section>
 </body>
-
-
 </html>
