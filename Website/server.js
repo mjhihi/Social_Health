@@ -74,6 +74,22 @@ app.get('/data/depression', async (req, res) => {
     }
 });
 
+// Route to fetch data for states_mh
+
+app.get('/data/states_mh', async (req, res) => {
+    try {
+        const client = await pool.connect();
+        const result = await client.query('SELECT * FROM states_mh');
+        const data = result.rows;
+        client.release();
+        res.json(data);
+    } catch (error) {
+        console.error('Error executing query for states_mh:', error);
+        res.status(500).send('Error fetching data for states_mh from database');
+    }
+});
+
+
 // Start the server
 app.listen(port, () => {
     console.log(`Server is listening at http://localhost:${port}`);

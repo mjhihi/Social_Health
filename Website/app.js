@@ -49,5 +49,16 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .catch(error => console.error('Error fetching data for Depression:', error));
 
+    // Fetch data from server for states_mh
+    fetch('http://localhost:3000/data/states_mh')
+        .then(response => response.json())
+        .then(data => {
+            // Log the received data for debugging
+            console.log('Data received for states_mh:', data);
+        })
+        .catch(error => console.error('Error fetching data for states_mh:', error));
+
+
+
 
 });
