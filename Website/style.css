@@ -1,5 +1,5 @@
 body {
-    background-color: #F8F6F4;
+    background-color: white;
 }
 
 
@@ -31,4 +31,14 @@ h2 {
   align-items: center; /* Center content vertically */
   flex-wrap: wrap; /* Allow content to wrap if necessary */
   margin-top: 40px; /* Adjust top margin as needed */
+}
+
+img {
+  display: block; 
+  margin: auto; 
+  max-width: 40%;
+  max-height: 40%; 
+
+.corrPlotContainer {
+  overflow-x: : auto;
 }
