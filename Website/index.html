@@ -4,25 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Social Media and Mental Health</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+
 </head>
 <body>
-  <header>
-    <img src="../Images/tiles.jpeg" alt="Header Image">
-  </header>
-  <h1>Connected or Disconnected: Analyzing Social Media's Role in Mental Well-being</h1>
-  <h2>Real Time Insights From Social Media</h2>
-  <h2>Social Media and Mental Health</h2>
-  <!-- Plotly Bar Graph Container -->
-  <div id="plotContainer" class="graphContainer">
-    <div class="plot-div" id="depressionGraph"></div>
-    <div class="plot-div" id="anxietyGraph"></div>
-    <div class="plot-div" id="adhdGraph"></div>
-    <div class="plot-div" id="selfEsteemGraph"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1 style="font-size: 75px; font-weight: bold;">Connected or Disconnected: Analyzing Social Media's Role in Mental Well-being</Strong></h1>
+      </div>
+    </div>
   </div>
 
+  <!-- Plotly Bar Graph Container -->
+<section id=timespent>
+      <h1>Time Spent on Social Media</h1>
+      <div id="plotContainer" class="graphContainer">
+        <div class="plot-div" id="depressionGraph"></div>
+          <div class="plot-div" id="anxietyGraph"></div>
+            <div class="plot-div" id="adhdGraph"></div>
+              <div class="plot-div" id="selfEsteemGraph"></div>
+           </div>
+
+  <!-- Include your app.js script -->
+<script src="plotlyGraph.js"></script>
+<script src="app.js"></script>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+  <!-- Correlation Plot Image-->
+  <section id="correlation" class="text-center">
+    <h1>Mental Health Score Correlation</h1>
+    <img src="..\correlationPlot.png" alt="Correlation Plot">
+  </section>
+
+<!-- Include your app.js script -->
+<script src="plotlyGraph.js"></script>
+<script src="app.js"></script>
+</div>
+</div>
+</div>
+</section>
+</div>
+</body>
+
+<body>
+  <!-- Social Media Timline Visual-->
 <section id=timeline>
       <h1>Social Media Timline</h1>
       <p class="leader"></p>
@@ -104,7 +138,9 @@
             <img src="..\Images\TikToc.png" alt="Graphic" style="width: 418px; height: 165px;">
           </div>
         </div>
-      </div>
-    </section>
+    
+    </div>
+</section>
+
 </body>
 </html>

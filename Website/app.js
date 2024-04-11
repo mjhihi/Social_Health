@@ -49,12 +49,25 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .catch(error => console.error('Error fetching data for Depression:', error));
 
+
+        // Fetch data from server for Mental Health
+    fetch('http://localhost:3000/data/mentalHealth')
+        .then(response => response.json())
+        .then(data => {
+            // Log the received data for debugging
+            console.log('Data received for mentalHealth:', data);
+            // Call createPlotlyGraph function from plotlyGraph.js
+            createPlotlyHisto(data, 'age', 'sex', 'time_spent', 'total_score');
+        })
+        .catch(error => console.error('Error fetching data for Mental Health:', error));
+
     // Fetch data from server for states_mh
     fetch('http://localhost:3000/data/states_mh')
         .then(response => response.json())
         .then(data => {
             // Log the received data for debugging
             console.log('Data received for states_mh:', data);
+
         })
         .catch(error => console.error('Error fetching data for states_mh:', error));
 
